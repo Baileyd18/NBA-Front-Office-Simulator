@@ -25,7 +25,7 @@ LOGO_PATH = "baileybi_logo.png"
 # 2. Create a brand-new key.
 # 3. Paste it between the quotes below.
 # 4. Do NOT paste your key anywhere else in this file.
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", "")
 
 # Internal placeholder. Do not edit this line.
 PLACEHOLDER_API_KEY = "PASTE_YOUR_NEW_OPENAI_API_KEY_HERE"
