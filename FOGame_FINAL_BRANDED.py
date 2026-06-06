@@ -15,8 +15,8 @@ except ImportError:
 # CONFIG
 # ============================================================
 
-DATA_PATH = r"C:\Users\dilla\OneDrive\Desktop\NBA-Data-Pipeline\Game\Clean NBA Data.csv"
-LOGO_PATH = r"C:\Users\dilla\OneDrive\Desktop\NBA-Data-Pipeline\Game\baileybi_logo.png"
+DATA_PATH = "Clean NBA Data.csv"
+LOGO_PATH = "baileybi_logo.png"
 
 # ============================================================
 # OPENAI API KEY - ONLY PASTE YOUR KEY ON THIS ONE LINE
